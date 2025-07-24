@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router'
 import frontRoutes from '../routes/frontRoutes'
-import styles from './goHomeButton.module.css'
+import styles from './GoHomeButton.module.css'
 
 function GoHomeButton() {
   const navigate = useNavigate()
