@@ -1,0 +1,11 @@
+.containerMainLayout {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+}
+.containerMain {
+   flex: 1;
+   margin: 0 auto;
+   background-color: #f5f5f5;
+   width: 100%;
+}

@@ -1,0 +1,93 @@
+.teacherCard {
+  width: 520px; 
+  margin-bottom: 20px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #a5d6a7;
+  border-radius: 8px;
+  padding: 10px 16px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.section1 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.section1 img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #4caf50;
+}
+
+.section1 div > div:first-child {
+  font-weight: bold;
+  color: #388e3c;
+  font-size: 16px;
+}
+
+.section1 div > div:last-child {
+  color: #757575; 
+  font-size: 14px;
+}
+
+.section1 div > div:last-child::before {
+  content: 'Предмет: ';
+  font-weight: bold;
+  color: #424242;
+}
+
+.section2 button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.section2 button:hover {
+  background-color: #388e3c;
+}
+.buttonTeacherCard {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 10px;
+   margin-top: 20px;
+   max-width: 600px;
+}
+.buttonEdit {
+  background-color: #5878f6;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 180px;
+}
+.buttonEdit:hover {
+  background-color: #6259d9; 
+}
+.buttonDelete {
+  background-color: #f44336; 
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 180px;
+}
+.buttonDelete:hover {
+  background-color: #d32f2f;
+}
